@@ -1,0 +1,20 @@
+﻿<Window x:Class="KT16_SkalochkinFedor_ISP_321_MasterFloor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KT16_SkalochkinFedor_ISP_321_MasterFloor"
+        mc:Ignorable="d"
+        Title="Мастер пол" Height="700" Width="800" MinWidth="800" MinHeight="700" WindowStartupLocation="CenterScreen" Icon="/Resources/Мастер пол.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#F4E8D3" Grid.ColumnSpan="2">
+            <TextBlock Text="Мастер пол" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></TextBlock>
+            <Image Source="Resources/Мастер пол.png" Grid.Row="1" HorizontalAlignment="Left"></Image>
+        </Grid>
+        <Frame x:Name="MainFrame" Grid.Row="1" Grid.ColumnSpan="2"></Frame>
+    </Grid>
+</Window>

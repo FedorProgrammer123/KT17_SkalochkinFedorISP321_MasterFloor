@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ef51656527c47d88f745d47ba32d532" Name="Diagram1">
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.Address" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.City" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.Directors" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.MaterialTypeImport" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.PartnerProductsImport" Width="1.5" PointX="8" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.Partners" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.PartnersImport" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.PartnerType" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.PostIndex" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.ProductsImport" Width="1.5" PointX="11" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.ProductTypeImport" Width="1.5" PointX="8.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.Region" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.Street" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KT16_SkalochkinFedor_ISP321_MasterFloorModel.TitleProducts" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_City" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_PostIndex" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_Address_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_Directors" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnerProductsImport_Partners" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnerProductsImport_TitleProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_Partners" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_PartnersImport_PartnerType" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_ProductsImport_ProductTypeImport" ManuallyRouted="false" />
+        <AssociationConnector Association="KT16_SkalochkinFedor_ISP321_MasterFloorModel.FK_ProductsImport_TitleProducts" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
